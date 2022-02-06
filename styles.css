@@ -1,1 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-bar{
+  width: 100%;
+  position: sticky;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  background-color: #152C52;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
