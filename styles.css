@@ -65,5 +65,6 @@ a{
   display: flex;
   justify-content: center;
   padding-top: 20px;
-  border-bottom: 2px solid #152C52; 
+  border-bottom: 2px solid #152C52;
+  margin: 0 auto 6rem auto;
 }
