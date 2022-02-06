@@ -39,5 +39,5 @@ a{
 .nav-list a:hover{
   color:#152C52;
   background-color: #E6EDFA;
-  transition: background-color .5s ease-in-out;
+  transition: background-color .5s;
 }
