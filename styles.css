@@ -41,3 +41,11 @@ a{
   background-color: #E6EDFA;
   transition: background-color .5s;
 }
+
+.welcome{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
