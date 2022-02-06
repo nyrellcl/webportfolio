@@ -9,7 +9,9 @@
 ul{
   list-style: none;
 }
-
+h1{
+  font-size: 3.5rem;
+}
 a{
   text-decoration: none;
   color: #E6EDFA;
@@ -48,4 +50,10 @@ a{
   justify-content: center;
   align-items: center;
   width: 100%;
+  background-color:#E6EDFA;
+}
+
+.welcome > p{
+  font-size: 2rem;
+  color: #152C52;
 }
