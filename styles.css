@@ -65,4 +65,5 @@ a{
   display: flex;
   justify-content: center;
   padding-top: 20px;
+  border-bottom: 2px solid #152C52; 
 }
