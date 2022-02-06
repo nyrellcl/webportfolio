@@ -33,3 +33,8 @@ a{
   font-size: 22px;
   padding:2rem;
 }
+
+.nav-list a:hover{
+  color:#152C52;
+  background-color: #E6EDFA;
+}
