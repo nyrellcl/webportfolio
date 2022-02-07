@@ -117,8 +117,8 @@ img{
   text-align: center;
   width: 100%;
 }
-.contact-links{
+.contact-links > p{
   width: 100%;
-  display: flex;
+  display: inline-flex;
   
 }
