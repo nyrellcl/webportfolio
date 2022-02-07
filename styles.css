@@ -117,3 +117,9 @@ img{
   text-align: center;
   width: 100%;
 }
+.contact-links{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
