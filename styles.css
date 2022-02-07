@@ -73,7 +73,10 @@ a{
 }
 .projects-section{
   grid-area: projects-section;
-  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  
 }
 .project-1{
   grid-area: project-1;
