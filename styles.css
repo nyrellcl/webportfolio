@@ -71,6 +71,10 @@ a{
     "projects-section projects-section projects-section"
     "project-1 project-2 project-3";
 }
+.projects-section{
+  grid-area: projects-section;
+  width: 100%;
+}
 .project-1{
   grid-area: project-1;
   width: 100%;
