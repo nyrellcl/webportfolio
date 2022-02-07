@@ -45,7 +45,9 @@ a{
   background-color: #E6EDFA;
   transition: background-color .5s;
 }
-
+#about{
+  margin-top: 15px;
+}
 .welcome{
   display: flex;
   flex-direction: column;
