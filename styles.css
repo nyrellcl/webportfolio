@@ -107,4 +107,13 @@ project-3{
 img{
   display: block;
   width: 100%;
+}
 
+.contact-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
