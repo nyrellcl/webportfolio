@@ -68,7 +68,7 @@ a{
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas:
-    "proj-grid proj-grid proj-grid"
+    "projects-section projects-section projects-section"
     "project-1 project-2 project-3";
 }
 .project-1{
