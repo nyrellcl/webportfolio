@@ -120,6 +120,7 @@ img{
 .contact-links{
   width: 100%;
   display: flex;
+  max-width: 900px;
   justify-content: center;
   flex-wrap: wrap;
 }
