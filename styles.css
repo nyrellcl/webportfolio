@@ -68,10 +68,11 @@ a{
   width: 100%;
   grid-gap: 10px;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 0.20fr 1fr;
+  grid-template-rows: 0.20fr 1fr 1fr;
   grid-template-areas:
     "projects-section projects-section projects-section"
-    "project-1 project-2 project-3";
+    "project-1 project-2 project-3"
+    "project-4 project-5 project-6";
 }
 .projects-section{
   grid-area: projects-section;
@@ -93,6 +94,20 @@ project-2{
 
 project-3{
   grid-area: project-3;
+  width: 100%;
+}
+project-4{
+  grid-area: project-4;
+  width: 100%;
+}
+
+project-5{
+  grid-area: project-5;
+  width: 100%;
+}
+
+project-6{
+  grid-area: project-6;
   width: 100%;
 }
 .proj-title{
