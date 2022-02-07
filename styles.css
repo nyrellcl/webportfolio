@@ -46,7 +46,10 @@ a{
   transition: background-color .5s;
 }
 #about{
-  margin-top: 15px;
+  width: 75%;
+  display: flex;
+  margin: 15px auto;
+  text-align: center;
 }
 .welcome{
   display: flex;
