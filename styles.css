@@ -66,8 +66,9 @@ a{
   width: 100%;
   grid-gap: 10px;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(1, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   grid-template-areas:
+    "proj-grid proj-grid proj-grid"
     "project-1 project-2 project-3";
 }
 .project-1{
