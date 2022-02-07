@@ -119,5 +119,7 @@ img{
 }
 .contact-links{
   width: 100%;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
