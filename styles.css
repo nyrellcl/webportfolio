@@ -59,7 +59,28 @@ a{
   font-size: 2rem;
   color: #152C52;
 }
+.proj-grid{
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-areas:
+    "project-1 project-2 project-3";
+}
+.project-1{
+  grid-area: project-1;
+  width: 100%;
+}
 
+project-2{
+  grid-area: project-2;
+  width: 100%;
+}
+
+project-3{
+  grid-area: project-3;
+  width: 100%;
+}
 .proj-title{
   width: 100%;
   display: flex;
@@ -69,4 +90,7 @@ a{
   margin: 0 auto 6rem auto;
 }
 
+img{
+  display: block;
+  width: 100%;
 
