@@ -90,6 +90,7 @@ a{
 }
 .content > a{
   color: black;
+  text-decoration: underline;
 }
 
 .img-wrapper > img,
