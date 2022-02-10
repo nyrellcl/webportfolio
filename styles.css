@@ -191,8 +191,9 @@ img{
 @media only screen and (min-width: 390px) {
   .proj-grid {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 1fr);
     grid-template-areas:
+      "projects-section"
       "project-1"
       "project-2"
       "project-3"
