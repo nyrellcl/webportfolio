@@ -52,6 +52,12 @@ a{
   margin: 15px auto;
   text-align: center;
 }
+
+.about-title{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 .welcome{
   display: flex;
   flex-direction: column;
