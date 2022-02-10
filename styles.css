@@ -53,7 +53,7 @@ a{
   text-align: center;
 }
 #about > p{
-  text-align: start;
+  text-align: left;
 }
 .about-title{
   width: 100%;
