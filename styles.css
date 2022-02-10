@@ -207,4 +207,8 @@ img{
     text-align: center;
     margin: 20px auto;
   }
+  .nav-list{
+  display: flex;
+  width: 100%;
+}
 }
