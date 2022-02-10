@@ -6,6 +6,7 @@
   padding: 0;
 }
 body{
+  margin: 0;
   line-height: 1.5;
 }
 ul{
@@ -64,6 +65,46 @@ a{
   font-size: 2rem;
   color: #152C52;
 }
+
+.img-wrapper{
+  position: relative;
+  overflow: hidden;
+}
+
+.img-wrapper >  img{
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.img-wrapper > .content{
+  position: absolute;
+  inset: 0;
+  font-size: 2rem;
+  padding: 1rem;
+  background: rgba(255,255,255, .4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-wrapper > img,
+.img-wrapper > .content{
+  transition: 200ms ease-in-out;
+}
+.img-wrapper> img.blur{
+  filter: blur(5px);
+}
+.img-wrapper >.content.fade{
+  opacity: 0;
+}
+
+.img-wrapper:hover >.content.fade{
+  opacity: 1;
+}
+
+
 .proj-grid{
   display: grid;
   justify-content: center;
