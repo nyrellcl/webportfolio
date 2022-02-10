@@ -46,13 +46,15 @@ a{
   background-color: #E6EDFA;
   transition: background-color .5s;
 }
-#about{
+ #about{
   width: 55%;
   display: flex;
   margin: 15px auto;
   text-align: center;
 }
-
+#about > p{
+  text-align: start;
+}
 .about-title{
   width: 100%;
   display: flex;
