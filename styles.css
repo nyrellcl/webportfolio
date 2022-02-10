@@ -88,6 +88,9 @@ a{
   justify-content: center;
   align-items: center;
 }
+a.content{
+  color: black;
+}
 
 .img-wrapper > img,
 .img-wrapper > .content{
