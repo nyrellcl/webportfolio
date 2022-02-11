@@ -52,7 +52,7 @@ a{
   margin: 15px auto;
   text-align: center;
 }
-#about > p{
+.about-title > p{
   text-align: left;
 }
 .about-title{
