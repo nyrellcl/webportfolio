@@ -196,7 +196,7 @@ img{
 }
 
 
-@media only screen and (max-width: 390px) {
+@media screen and (max-width: 390px) {
   .proj-grid {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(7, 1fr);
