@@ -244,7 +244,7 @@ img{
   align-items: center;
 }
 .contact-title{
-  margin-bottom: 15px;
+  margin-bottom: 50px;
 }
 @media screen and (max-width: 500px) {
   .proj-grid {
