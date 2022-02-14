@@ -213,7 +213,9 @@ img{
   display: flex;
   align-items: center;
 }
-
+.contact-title{
+  margin-bottom: 15px;
+}
 @media screen and (max-width: 500px) {
   .proj-grid {
     grid-template-columns: 1fr;
