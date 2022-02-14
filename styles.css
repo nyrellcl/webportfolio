@@ -191,11 +191,11 @@ img{
   background-color: #152C52;
   width: 100%;
 }
-.contact-links > p{
+.contact-details > p{
   display: inline-block;
   padding: 10px 30px;
 }
-.contact-links > h2{
+.contact-details > h2{
   color: #E6EDFA;
 }
 .contacts-img{
@@ -203,7 +203,12 @@ img{
   width: 50px;
   height: 50px;
 }
-
+.contact-links{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
 
 @media screen and (max-width: 500px) {
   .proj-grid {
