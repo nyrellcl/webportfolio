@@ -213,10 +213,6 @@ img{
   display: flex;
   align-items: center;
 }
-.phone-details{
-  display: flex;
-  align-items: center;
-}
 
 @media screen and (max-width: 500px) {
   .proj-grid {
