@@ -57,7 +57,7 @@ a{
   grid-gap: 20px;
   grid-template-rows: 1fr;
   grid-template-areas:
-    "about resume"
+    "about skills"
     ;
 }
 
@@ -68,8 +68,8 @@ a{
   margin: 15px auto;
   justify-content: flex-start;
 }
-#resume{
-  grid-area: resume;
+#skills{
+  grid-area: skills;
   width: 100%;
   height: 0;
   display: grid;
