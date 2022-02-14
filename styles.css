@@ -22,6 +22,9 @@ a{
   text-decoration: none;
   color: #E6EDFA;
 }
+figcaption{
+  color:#152C52;
+}
 
 .nav-bar{
   width: 100%;
@@ -259,7 +262,7 @@ img{
     text-align: center;
     margin: 20px auto;
   }
-  .nav-list, .nav-list{
+  .nav-list{
   display: none;
  
 }
