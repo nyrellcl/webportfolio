@@ -46,9 +46,30 @@ a{
   background-color: #E6EDFA;
   transition: background-color .5s;
 }
+
+.about-grid{
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "about resume"
+    ;
+}
+
  #about{
-  width: 55%;
-  display: flex;
+  grid-area: about;
+  width: 100%;
+  display: grid;
+  margin: 15px auto;
+  justify-content: center;
+}
+#resume{
+  grid-area: resume;
+  width: 100%;
+  height: 0;
+  display: grid;
   margin: 15px auto;
   justify-content: center;
 }
