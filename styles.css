@@ -198,6 +198,11 @@ img{
 .contact-links > h2{
   color: #E6EDFA;
 }
+.contacts-img{
+  width: inherit;
+  height: inherit;
+}
+
 
 @media screen and (max-width: 500px) {
   .proj-grid {
