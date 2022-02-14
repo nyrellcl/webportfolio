@@ -63,7 +63,7 @@ a{
   width: 100%;
   display: grid;
   margin: 15px auto;
-  justify-content: center;
+  justify-content: flex-start;
 }
 #resume{
   grid-area: resume;
@@ -71,7 +71,7 @@ a{
   height: 0;
   display: grid;
   margin: 15px auto;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .about-title > p{
   text-align: left;
