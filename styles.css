@@ -35,6 +35,7 @@ header{
   font-weight: bold;
   font-size: 1.3rem;
   margin: 20px;
+  text-decoration: underline;
 }
 .nav-bar{
   width: 100%;
