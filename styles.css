@@ -69,6 +69,11 @@ header{
 .skill-list > li{
   padding: 18px;
 }
+.skill-list > ul li::before{
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #152C52;
+  margin: 1rem;
+}
 .about-grid{
   display: grid;
   width: 100%;
