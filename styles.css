@@ -62,7 +62,7 @@ header{
   transition: background-color .5s;
 }
 .skill-list{
-  display: inline;
+  display: flex;
   width: 100%;
 }
 
