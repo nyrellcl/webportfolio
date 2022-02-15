@@ -65,6 +65,7 @@ header{
 .skill-list{
   display: flex;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 .skill-list > li{
