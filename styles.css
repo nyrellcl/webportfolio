@@ -73,7 +73,7 @@ header{
   content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: #152C52;
   margin: 1em;
-  display: flex;
+  display: inline;
 }
 .about-grid{
   display: grid;
