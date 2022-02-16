@@ -18,9 +18,10 @@ p{
   padding: 5px;
 }
 figure{
-  display: flex;
+  display: grid;
   width: 100%;
-  height: auto;
+  height: 100%;
+  align-items: center
 }
 ul{
   list-style: none;
