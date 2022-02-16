@@ -190,7 +190,7 @@ header{
   align-content: center;
   width: 100%;
   grid-gap: 10px;
-  margin: 30px;
+  margin: 30px auto;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 0.20fr 1fr 1fr;
   grid-template-areas:
