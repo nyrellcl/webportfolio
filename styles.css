@@ -286,6 +286,17 @@ img{
   margin-bottom: 50px;
 }
 @media screen and (max-width: 500px) {
+  
+  .about-grid{
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 20px;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "about"
+    "skills"
+    ;
+}
+  
   .proj-grid {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(7, 1fr);
