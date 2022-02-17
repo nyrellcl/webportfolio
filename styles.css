@@ -313,6 +313,8 @@ img{
       "project-4"
       "project-5"
       "project-6";
+    width: 95%; /*This will prevent the images from taking up the whole width of
+                 the users screen. Allows for more separation of images*/
       
   }
   h1{
