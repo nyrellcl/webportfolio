@@ -209,6 +209,11 @@ using the regular bullet points provided by <li> didn't suit well with the webpa
   margin-top: 15px;
   
 }
+button{
+  display: grid;
+  width: 100%;
+  justify-content: center;
+}
 .project-1{
   grid-area: project-1;
   width: 100%;
