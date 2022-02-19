@@ -214,6 +214,11 @@ button{
   width: 100%;
   justify-content: center;
 }
+.btn{
+  display: grid;
+  justify-content: center;
+  width: 100%;
+}
 .project-1{
   grid-area: project-1;
   width: 100%;
