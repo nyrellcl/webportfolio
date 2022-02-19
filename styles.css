@@ -305,17 +305,7 @@ img{
   #skills{
     height: 100%;
   }
-  /*removes the blur effect on mobile*/
-  .blur{
-    display: none;
-  }
-  .content{
-    display: none;
-  }
-  .img-wrapper{
-    display: none;
-  }
-  /*------*/
+ 
   .proj-grid {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(7, 1fr);
