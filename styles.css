@@ -123,6 +123,10 @@ header{
 
 .skill-list > li{
   padding: 18px;
+  padding: 16px;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
 }
 /*I wanted to customize my own bullet points for the skills list.
 using the regular bullet points provided by <li> didn't suit well with the webpage*/
