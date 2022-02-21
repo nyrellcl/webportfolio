@@ -219,26 +219,26 @@ using the regular bullet points provided by <li> didn't suit well with the webpa
   width: 100%;
 }
 
-project-2{
+.project-2{
   grid-area: project-2;
   width: 100%;
 }
 
-project-3{
+.project-3{
   grid-area: project-3;
   width: 100%;
 }
-project-4{
+.project-4{
   grid-area: project-4;
   width: 100%;
 }
 
-project-5{
+.project-5{
   grid-area: project-5;
   width: 100%;
 }
 
-project-6{
+.project-6{
   grid-area: project-6;
   width: 100%;
 }
