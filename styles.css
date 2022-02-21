@@ -49,9 +49,6 @@ header{
   margin: 14px;
   text-decoration: underline;
 }
-button{
-  display: grid;
-}
 .nav-bar{
   width: 100%;
   position: sticky;
