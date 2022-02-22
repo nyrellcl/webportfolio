@@ -350,6 +350,12 @@ img{
     margin: 30px 10px;
     width: 100%;
   }
+  .contact-links{
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+}
   .contact-details{
     display: flex;
     flex-direction: column;
