@@ -314,7 +314,20 @@ img{
     text-align: center;
     margin: 20px auto;
   }
-  .nav-list{
+  .nav-bar{
     display: none;
     }
+     .contact-links{
+   display: inline-flex;
+   align-items: center;
+   flex-direction: column;
+   justify-items: center;
+}
+ .contact-details{
+   display: flex;
+   flex-direction: column;
+   justify-items: center;
+}
+
+
 }
