@@ -344,7 +344,7 @@ img{
   }
   
   .project-1, .project-2, .project-3, .project-4, .project-5, .project-6 {
-    margin: 30px 10px;
+    margin: 0 auto;
     width: 100%;
   }
   .contact-links{
