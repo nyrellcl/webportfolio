@@ -11,7 +11,6 @@ html{
 body{
   margin: 0;
   line-height: 1.5;
-  overflow-x: hidden;
 }
 h1{
   color: #E6EDFA;
@@ -147,6 +146,7 @@ button{
 }
 
 .skill-list > li{
+  padding: 18px;
   padding: 16px;
   font-size: 1.2rem;
   display: flex;
@@ -169,6 +169,46 @@ using the regular bullet points provided by <li> didn't suit well with the webpa
   display: flex;
   justify-content: center;
 }
+
+
+/*.img-wrapper{
+  position: relative;
+  overflow: hidden;
+}
+.img-wrapper >  img{
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.img-wrapper > .content{
+  position: absolute;
+  inset: 0;
+  font-size: 2rem;
+  padding: 1rem;
+  background: rgba(255,255,255, .4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content > a{
+  color: black;
+  text-decoration: underline;
+}
+.img-wrapper > img,
+.img-wrapper > .content{
+  transition: 200ms ease-in-out;
+}
+gives the blur effect when user hovers on the projects
+.img-wrapper:hover > img.blur{
+  filter: blur(5px);
+}
+.img-wrapper >.content.fade{
+  opacity: 0;
+}
+.img-wrapper:hover >.content.fade{
+  opacity: 1;
+}*/
 
 .proj-cont{
   background-color: #F8FAFB;
@@ -277,7 +317,11 @@ img{
     text-align: center;
   }
   .nav-bar{
-   display: none;
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   justify-items: center;
+   margin-top: 10px;
+   padding: 0.96rem;
   }
   .btn{
     font-size: 0.95rem;
@@ -303,23 +347,8 @@ img{
   }
   
   .project-1, .project-2, .project-3, .project-4, .project-5, .project-6 {
-    margin: 0 auto;
+    margin: 30px 10px;
     width: 100%;
-  }
-  .contact-links{
-    display: inline-flex;
-    align-items: center;
-    flex-direction: column;
-    justify-items: center;
-}
-  .contact-details{
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-}
-  .contacts-img{
-    margin: 0 auto;
-  }
   h1{
     font-size: 3.3rem;
     text-align: center;
