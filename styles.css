@@ -314,6 +314,9 @@ img{
    flex-direction: column;
    justify-items: center;
 }
+  .contacts-img{
+    margin: 0 auto;
+  }
 
 
 }
