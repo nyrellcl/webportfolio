@@ -294,6 +294,7 @@ img{
   .project-1, .project-2, .project-3, .project-4, .project-5, .project-6 {
     margin: 0 auto;/*30px 10px;*/
     width: 100%;
+  }
   h1{
     font-size: 3.3rem;
     text-align: center;
