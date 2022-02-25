@@ -55,6 +55,15 @@ button{
   height: 50px;
   margin: 10px;
 }
+.home {
+  float: left;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+}
 .btn-cont{
   width: 100%;
   display: flex;
