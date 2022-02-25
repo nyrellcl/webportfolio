@@ -56,6 +56,7 @@ button{
   height: 50px;
   margin: 10px;
 }
+/*hamburger icon code*/
 #ham-icon{
   margin: auto 0;
   display: none;
@@ -73,11 +74,12 @@ button{
   background-color: #152C52;
   padding: 1.1rem;
 }
+/*will rotate counterclockwise once user presses the icon which will form an X along with bar2*/
 .open .bar1{
   -webkit-transform: rotate(-45deg) translate(-6px, 6px);
   transform: rotate(-45deg) translate(-6px, 6px);
 }
-
+/*will 'disappear' the user clicks on the icon*/
 .open .bar2{
   opacity: 0;
 }
@@ -86,6 +88,7 @@ button{
   -webkit-transform: rotate(45deg) translate(-6px, -8px);
   transform: rotate(45deg) translate(-6px, -8px);
 }
+/*once user opens the icon the links will display in a stacked view*/
 .open .mobile-menu{
   display: flex;
   flex-direction: column;/*stacks each link on top of each other on mobile*/
@@ -101,6 +104,7 @@ button{
   width: 100%;
   margin-top: 10px;
   font-size: 1.5rem;
+  /*sets the background of the menu once user opens the icon. I want to make this transition for seemless. (future update)*/
   background-color: white;
   opacity: 0.8;
 }
