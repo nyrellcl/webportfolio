@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <head>
-  <link href="styles.css" type="text/css" rel="stylesheet">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles.css" type="text/css" rel="stylesheet"/>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <script src="index.js"></script>
   <title>Nyrell Leonor</title>
 </head> 
 
@@ -16,8 +17,25 @@
       <li><a href="#projects">Projects</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
-
   </nav>
+  
+  <!--Hamburger icon for mobile version-->
+ <div class="ham-container">
+  <div id="ham-icon" onclick="toggleMobileMenu(this)">
+   <div class="bar1"></div>
+   <div class="bar2"></div>
+   <div class="bar3"></div>
+    <ul class="mobile-menu">
+      <li><a href="#about">About</a></li>
+      <li><a href="https://docs.google.com/document/d/1XLos1rNG2Lz3a6caDgse7fny02Qp1JOIEGdsNUyNFjk/edit#heading=h.3whwml4" target="_blank">Resume</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+  </div> 
+  </div>
+      
+      
   <!--Welcome Section-->
   <section class="welcome">
     <h1>Hello, I'm Nyrell</h1>
@@ -124,4 +142,5 @@ side of screen-->
     </article>
 
   </footer>
+   
 </body>
