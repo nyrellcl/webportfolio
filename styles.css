@@ -77,10 +77,10 @@ button{
   font-size: 1.1rem;
   color: #152C52;
 }
-.btn:hover{
+/*.btn:hover{
   background-color: #E6EDFA;
   transition: background-color 0.25s;
-}
+}*/
 .nav-bar{
   width: 100%;
   position: sticky;
