@@ -116,6 +116,7 @@ button{
   background-color: #152C52;
   text-align: center;
   padding: 3rem 0;
+  background-image: linear-gradient(345deg, #e6edfad4, rgb(86 18 141 / 14%));
 }
 
 .welcome > p{
