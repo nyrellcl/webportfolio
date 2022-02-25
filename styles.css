@@ -29,6 +29,7 @@ figure{
 }
 ul{
   list-style: none;
+  height: 100%;
 }
 h1{
   font-size: 3.5rem;
@@ -54,6 +55,61 @@ button{
   align-items: center;
   height: 50px;
   margin: 10px;
+}
+#ham-icon{
+  margin: auto 0;
+  display: none;
+  cursor: pointer;
+}
+
+#ham-icon div{
+  width: 35px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.ham-container{
+  background-color: #152C52;
+  padding: 1.1rem;
+}
+.open .bar1{
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2{
+  opacity: 0;
+}
+
+.open .bar3{
+  -webkit-transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px);
+}
+.open .mobile-menu{
+  display: flex;
+  flex-direction: column;/*stacks each link on top of each other on mobile*/
+  align-items: center;
+  justify-content: flex-start;
+}
+.mobile-menu{
+  display: none;
+  position: absolute;
+  top: 50px;/*fixed height of header*/
+  left: 0;
+  height: calc(100vh - 50px);/*takes the full remaining space of site hence width 100. set the height to 100 and subtract it from the height of header*/
+  width: 100%;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  background-color: white;
+  opacity: 0.8;
+}
+.mobile-menu a{
+  color: black;
+}
+
+.mobile-menu li{
+  margin-bottom: 10px;
 }
 .home {
   float: left;
@@ -322,6 +378,11 @@ img{
   .nav-bar{
     display: none;
     }
+  
+  #ham-icon{
+    display: block;
+  }
+  
   .contact-links{
    display: inline-flex;
    align-items: center;
