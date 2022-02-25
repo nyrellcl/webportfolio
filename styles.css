@@ -90,6 +90,7 @@ button{
   top: 0;
   left: 0;
   z-index: 10;
+  box-shadow: 0 6px 15px -10px grey;
 }
 
 .nav-list{
