@@ -233,7 +233,7 @@ using the regular bullet points provided by <li> didn't suit well with the webpa
   justify-content: center;
   padding-top: 20px;
   text-decoration: underline;
-  margin: 5rem auto 2rem auto;
+  margin: 5rem 0;
   font-size: 2.1rem;
 }
 
