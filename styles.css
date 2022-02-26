@@ -72,7 +72,6 @@ button{
 }
 .ham-container{
   background-color: #152C52;
-  padding: 1.1rem;
 }
 /*will rotate counterclockwise once user presses the icon which will form an X along with bar2*/
 .open .bar1{
@@ -400,6 +399,9 @@ img{
 }
   .contacts-img{
     margin: 0 auto;
+  }
+  .ham-container{
+    padding: 1.1rem;
   }
 
 
