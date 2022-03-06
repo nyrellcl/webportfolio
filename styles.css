@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 *{
-  font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -16,11 +15,13 @@ body{
 }
 h1{
   color: #E6EDFA;
+  font-family: 'Montserrat', sans-serif;
 }
 p{
   font-size: 1.1rem;
   margin: 5px;
   padding: 10px;
+  font-family: 'Montserrat', sans-serif;
 }
 figure{
   display: grid;
@@ -33,12 +34,18 @@ ul{
   list-style: none;
   height: 100%;
 }
+
+li{
+  font-family: 'Montserrat', sans-serif;
+}
+
 h1{
   font-size: 3.5rem;
 }
 a{
   text-decoration: none;
   color: #152C52; 
+  font-family: 'Montserrat', sans-serif;
 }
 a:hover{
   text-decoration: underline;
@@ -51,6 +58,7 @@ header{
   font-size: 1.3rem;
   margin: 14px;
   text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
 }
 button{
   display: inline-flex;
@@ -226,6 +234,7 @@ button{
   font-size: 1.2rem;
   display: flex;
   align-items: center;
+  font-family: 'Montserrat', sans-serif;
 }
 /*I wanted to customize my own bullet points for the skills list.
 using the regular bullet points provided by <li> didn't suit well with the webpage*/
@@ -236,14 +245,20 @@ using the regular bullet points provided by <li> didn't suit well with the webpa
   display: inline;
   margin-left: -1em;
 }
-.about-title > p{
-  text-align: left;
-}
+
 .about-title{
   width: 100%;
   display: flex;
   justify-content: center;
+  font-family: 'Roboto',sans-serif;
+  letter-spacing: 2px;
+  color: #152C52;
 }
+
+.about-title > p{
+  text-align: left;
+}
+
 
 .proj-cont{
   background-color: #F8FAFB;
@@ -302,6 +317,9 @@ using the regular bullet points provided by <li> didn't suit well with the webpa
   text-decoration: underline;
   margin: 5rem 0;
   font-size: 2.1rem;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+  color: #152C52;
 }
 
 img{
@@ -346,6 +364,8 @@ img{
 }
 .contact-title{
   margin-bottom: 50px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
 }
 @media screen and (max-width: 500px) {
   *{
