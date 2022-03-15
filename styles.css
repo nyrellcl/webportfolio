@@ -196,7 +196,7 @@ header{
 }
 
 .photo-size{
-  height: 400px;
+  height: 350px;
   width: 100%;
   object-fit: cover;
   border-radius: 0.95rem;
