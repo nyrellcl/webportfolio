@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+/*Headings*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+/*Body*/
+@import url('https://fonts.googleapis.com/css2?family=Halant&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -15,22 +21,10 @@ body{
 }
 
 
-ul{
-  list-style: none;
-  height: 100%;
-}
-
-li{
-  font-family: 'Montserrat', sans-serif;
-}
-
-h1{
-  font-size: 3.5rem;
-}
 a{
   text-decoration: none;
   color: #152C52; 
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Halant', serif;
 }
 a:hover{
   text-decoration: underline;
@@ -146,13 +140,16 @@ header{
 }
 
 .welcome-title{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  
 }
 
 .welcome-description{
   font-size: 1.4rem;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-family: 'Halant', serif;
+  font-weight: 400;
   width: 50%;
 }
 
@@ -273,7 +270,7 @@ header{
 }
 .contact-title{
   margin-bottom: 50px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   letter-spacing: 2px;
 }
 
