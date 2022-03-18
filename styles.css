@@ -297,7 +297,6 @@ header{
   
   .welcome {
     flex-direction: column;
-    background: linear-gradient(180deg, #afcbff 0%,#bcd5ff 40%, #0000ff00 80%, transparent 100%);
 }
   
   .welcome-title {
@@ -358,7 +357,7 @@ header{
   
   .contacts-img{
     margin: 0 auto;
-    overflow-y: hidden;
+    overflow: hidden;
   }
   
   .ham-container{
