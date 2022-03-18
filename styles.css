@@ -123,7 +123,7 @@ header{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background: linear-gradient(90deg, #afcbff 0%, #bed5ff 40%, #0000ff00 80%, transparent 100%);
+  background: linear-gradient(90deg, #afcbff 0%, #afcbff 40%, #0000ff00 80%, transparent 100%);
 }
 
 .article-container{
