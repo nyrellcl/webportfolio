@@ -358,6 +358,7 @@ header{
   
   .contacts-img{
     margin: 0 auto;
+    overflow-y: hidden;
   }
   
   .ham-container{
