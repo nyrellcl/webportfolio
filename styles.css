@@ -291,9 +291,6 @@ header{
 
 
 @media screen and (max-width: 500px) {
-  *{
-    overflow-x: hidden;
-  }
   
   .welcome {
     flex-direction: column;
@@ -354,6 +351,10 @@ header{
   /*#ham-icon{
     display: block;
   }*/
+  
+  .contact-grid{
+    overflow: hidden;
+  }
   
   
   .contacts-img{
