@@ -1,1 +1,177 @@
+/*Headings*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,600;0,700;1,400&display=swap');
 
+/*Body*/
+@import url('https://fonts.googleapis.com/css2?family=Halant&display=swap');
+
+body{
+  padding: 0 5rem;
+}
+
+
+/*Nav bar*/
+
+li a{
+  text-decoration: none;
+  color: #152C52;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#work {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-bar {
+  background: white;
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  /*box-shadow: 0 8px 4px -8px grey;*/
+  
+}
+
+.home-nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 5rem
+}
+
+.nav-items{
+  list-style: none;
+  font-weight: 600;
+  font-size: 1.125rem;
+  letter-spacing: 0.2rem;
+}
+
+.name{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.125rem;
+  letter-spacing: 0.15rem;
+  font-weight: 600;
+  color: #152C52;
+  text-decoration: none;
+}
+
+.project-intro{
+  display: flex;
+  flex-direction: column;
+}
+
+.project-intro-title{
+  font-family: 'Halant', serif;
+  color: #152C52;
+  font-size: 3.125rem;
+}
+
+.project-description{
+  font-family: 'Halant', serif;
+  font-size: 1.5rem;
+  color: #152C52;
+  width: 50%;
+  
+}
+
+
+/*Img-wrapper*/
+
+.img-wrapper{
+  position: relative;
+}
+
+.img-content {
+  position: absolute;
+  inset: 0;
+  font-size: 2rem;
+  padding: 1rem;
+  background: rgba(255, 255,255, .4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.img-wrapper > .photo-size, .img-wrapper > .img-content {
+    transition: 200ms ease-in-out;
+}
+
+.img-wrapper:hover > .photo-size.blur {
+    filter: blur(5px);
+}
+
+.img-wrapper > .img-content.fade {
+    opacity: 0;
+}
+
+.img-wrapper:hover > .img-content.fade {
+    opacity: 1;
+}
+
+
+/*Projects*/
+
+.project-article {
+  padding: 4rem 0;
+}
+
+.sites-container{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 5rem;
+  padding: 4rem 0;
+}
+
+.site-details {
+  font-family: 'Halant', serif;
+  font-size: 1.25rem;
+  color: #152C52;
+}
+
+img.photo-size {
+  width: 500px;
+  height: auto;
+  border-radius: 1rem;
+}
+
+
+
+@media only screen and (max-width: 500px){
+  
+  body{
+    padding: 0 1rem;
+  }
+  
+  #work{
+    display: none;
+  }
+  
+  .home-nav{
+    padding: 0;
+  }
+  
+  img.photo-size{
+    width: 100%;
+  }
+  
+  .img-wrapper{
+    width: auto;
+  }
+  
+  .sites-container{
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .project-intro-title{
+    text-align: center;
+  }
+  
+  .project-description{
+    width: 100%;
+  }
+}
