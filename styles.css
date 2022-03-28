@@ -4,6 +4,9 @@
 /*Body*/
 @import url('https://fonts.googleapis.com/css2?family=Halant&display=swap');
 
+/*Footer*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 
 *{
   margin: 0;
@@ -270,6 +273,20 @@ li a{
 #hover-right:hover{
   transform: translateX(20px);
   cursor: pointer;
+}
+
+.footer-container{
+  text-align: center;
+  width: 287px;
+  height: 20px;
+  margin: 0 auto;
+}
+
+.footer-details{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #BDBDBD;
+  font-size: 0.875rem;
 }
 
 
