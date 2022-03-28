@@ -265,21 +265,6 @@ li a{
   cursor: pointer;
 }
 
-.footer-container{
-  text-align: center;
-  width: 287px;
-  height: 20px;
-  margin: 4rem auto auto;
-  background: linear-gradient(90deg, #afcbff 0%, #afcbff 40%, #0000ff00 80%, transparent 100%);
-}
-
-.footer-details{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  color: #152C52;
-  font-size: 0.875rem;
-}
-
 
 
 @media screen and (max-width: 500px) {
