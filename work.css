@@ -21,10 +21,6 @@ li a{
   font-family: 'Josefin Sans', sans-serif;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 #work {
   width: 25%;
   display: flex;
