@@ -330,6 +330,14 @@ li a{
     text-align: center;
   }
   
+  #hover-right:hover {
+    transform: none;
+  }
+  
+  #hover-left:hover {
+    transform: none;
+  }
+  
   .photo-size{
     height: 100%;
   }
