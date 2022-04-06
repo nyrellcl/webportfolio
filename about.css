@@ -193,6 +193,10 @@ span.bar {
     padding: 0;
   }
   
+  .nav-bar{
+    display: block;
+  }
+  
   .name{
     width: 100%;
     display: flex;
