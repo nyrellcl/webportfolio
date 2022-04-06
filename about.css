@@ -212,6 +212,10 @@ span.bar {
     text-align: center;
   }
   
+  .experience-titles{
+    margin: 3rem 0;
+  }
+  
   #article-1{
     margin: 0;
   }
