@@ -212,6 +212,10 @@ span.bar {
     margin: 0;
   }
   
+  #work{
+    width: 100%;
+  }
+  
   .skill-group{
     grid-template-columns: 500px;
     justify-items: initial;
