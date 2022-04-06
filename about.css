@@ -1,0 +1,193 @@
+/*Headings*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,600;0,700;1,400&display=swap');
+
+/*Body*/
+@import url('https://fonts.googleapis.com/css2?family=Halant&display=swap');
+
+/*Footer*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+li a{
+  text-decoration: none;
+  color: #152C52;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+#work {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+
+/*nav Menu*/
+.nav-bar {
+  background: white;
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  /*box-shadow: 0 8px 4px -8px grey;*/
+  
+}
+
+.home-nav{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 70%;
+  gap: 5rem
+}
+
+.nav-items{
+  list-style: none;
+  font-weight: 600;
+  font-size: 1.125rem;
+  letter-spacing: 0.2rem;
+}
+
+/*hover animation*/
+
+.link{
+  position: relative;
+}
+
+.link::before {
+  content: "";
+}
+
+.link::before, .link::after {
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: currentColor;
+  top: 100%;
+  left: 0;
+}
+
+.line::before {
+  transform-origin: 100% 50%;
+  transform: scale3d(0, 1, 1);
+  transition: transform 0.3s;
+}
+
+.line:hover::before {
+  transform-origin: 0% 50%;
+  transform: scale3d(1, 1, 1);
+}
+/*--End Hover--*/
+
+.name{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.15rem;
+  font-weight: 600;
+  color: #152C52;
+  text-decoration: none;
+}
+
+#article-1{
+  margin: 0 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+  font-family: 'Halant', serif;
+  margin: 5rem 0;
+  color: #152C52;
+  font-size: 2.5rem;
+}
+
+.title-2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 1.85rem;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #152C52;
+  letter-spacing: 0.2rem;
+  margin: 4rem 0;
+}
+
+.article-details {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2rem;
+  font-size: 1.35rem;
+  color: #272626;
+  width: 80%;
+}
+
+#article-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-3 {
+  font-family: 'Halant', serif;
+  font-size: 1.75rem;
+  width: 90%;
+  margin-top: 5rem;
+}
+
+span.bar {
+  width: 80%;
+  background-color: #272626;
+  height: 1px;
+  margin-top: 5rem;
+}
+
+.skill-group {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 500px 500px 500px;
+  grid-template-rows: auto;
+  margin-top: 5rem;
+  justify-items: center;
+}
+
+.experience-titles {
+  text-align: center;
+  font-family: 'Josefin Sans',sans-serif;
+  font-size: 1.45rem;
+}
+
+.skills-list {
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.skill-items{
+  padding-top: 0.5rem;
+}
+
+.footer-container {
+  text-align: center;
+  width: 287px;
+  height: 20px;
+  margin: 4rem auto auto;
+}
+
+.footer-details {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #272626;
+  font-size: 0.875rem;
+}
+
+
+/*Mobile*/
+
+@media only screen and (max-width: 500px){
+  .skill-group{
+    grid-template-columns: 500px;
+  }
+}
