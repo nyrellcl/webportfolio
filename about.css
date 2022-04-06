@@ -187,7 +187,37 @@ span.bar {
 /*Mobile*/
 
 @media only screen and (max-width: 500px){
+  
+  .home-nav{
+    width: 100%;
+    padding: 0;
+  }
+  
+  .name{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+  }
+  
+  h1.title{
+    text-align: center;
+  }
+  
+  #article-1{
+    margin: 0;
+  }
+  
   .skill-group{
     grid-template-columns: 500px;
+    justify-items: initial;
+  }
+  
+  .skills-list{
+     padding: 0 3rem;
+  }
+  
+  span.bar{
+    display: none;
   }
 }
