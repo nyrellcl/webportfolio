@@ -36,6 +36,7 @@ li a{
 .home-nav{
   display: flex;
   justify-content: flex-end;
+  font-family: 'Josefin Sans', sans-serif;
   align-items: center;
   width: 70%;
   gap: 5rem
@@ -52,6 +53,7 @@ li a{
 
 .link{
   position: relative;
+  text-decoration: none;
 }
 
 .link::before {
