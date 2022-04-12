@@ -316,15 +316,13 @@ li a{
     margin: 0 auto;
   }
   
-  .welcome-description {
+  .article-container p {
     width: 100%;
     margin: 1rem auto;
     padding: 1rem 0;
-  }
-  
-  .welcome > p{
     text-align: center;
   }
+ 
   
   #hover-right:hover {
     transform: none;
