@@ -2,9 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,600;0,700;1,400&display=swap');
 
 /*Body*/
-@import url('https://fonts.googleapis.com/css2?family=Halant&display=swap');
-
-/*Footer*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 
@@ -165,23 +162,21 @@ li a{
   justify-content: center;
   width: 50%;
   padding: 3rem 0;
-}
-
-.welcome-title, .welcome-description{
   color: #152C52;
-  margin: 2rem;
 }
 
 .welcome-title{
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
   font-size: 3.5rem;
+  margin: 2rem;
   
 }
 
-.welcome-description{
+.article-container p{
   font-size: 1.4rem;
-  font-family: 'Halant', serif;
+  font-family: 'Montserrat', sans-serif;
+  margin: 2rem;
   font-weight: 400;
   width: 50%;
 }
