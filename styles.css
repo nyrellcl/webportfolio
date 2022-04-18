@@ -188,37 +188,6 @@ li a{
 }
 
 
-/*Project-grid*/
-
-.project-grid{
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(2, auto);
-  margin: 4rem;
-  grid-gap: 2rem;
-}
-
-.project-1{
-  grid-column-start: 1;
-  grid-row-start: 1;
-}
-
-.project-2{
-  grid-column-start: 2;
-  grid-row-start: 1;
-}
-
-.project-3{
-  grid-column-start: 1;
-  grid-row-start: 2;
-}
-
-.project-4{
-  grid-column-start: 2;
-  grid-row-start: 2;
-}
 
 .photo-size{
   height: 350px;
@@ -227,12 +196,7 @@ li a{
   border-radius: 0.95rem;
 }
 
-
-
-
-
-
-.contact-info{
+/*.contact-info{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -251,7 +215,8 @@ li a{
 .contact-details > h2{
   color: #152C52;
   font-size: 2.3rem;
-}
+}*/
+
 .contacts-img{
   width: 70px;
   height: 70px;
